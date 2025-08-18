@@ -2,11 +2,18 @@
 Exercícios sobre os comandos básicos em Python
 '''
 
-#1. Faça um programa que imprima o seu nome.
+#1. Faça um programa que imprima o
+print('Luzineia')
+
+
+
 
 #2. Faça um programa que imprima o produto dos valores 30 e 27.
+print(30*27)
+
 
 #3. Faça um programa que imprima a média aritmética entre os números 5, 8, 12.
+print(f'5+8+12/3')
 
 #4. Faça um programa que leia e imprima um número inteiro.
 
@@ -51,6 +58,7 @@ Exercícios sobre os comandos básicos em Python
 #    do funcionário e ler o percentual de reajuste. Ao final imprimir
 #    o valor do novo salário.
 
+
 #17. Faça um programa que calcule a conversão entre graus centígrados
 #    e Fahrenheit. Para isso, leia o valor em centígrados e calcule
 #    com base na fórmula a seguir. Após calcular o programa deve
@@ -69,6 +77,16 @@ Exercícios sobre os comandos básicos em Python
 #    • L = Litros de combustível consumidos
 #    Ao final, o programa deverá imprimir a distância percorrida e a
 #    quantidade de litros consumidos na viagem.
+
+
+T = float(input(f'Tempo: '))
+Velocidade_média = Float(input(f'Velocidade_média: '))
+
+print(f' (L= D/12): {Listros}')
+print(f'(D = v*T): {Distancia}')
+
+
+
 
 #19. Faça um programa que calcule o valor de uma prestação em atraso.
 #    Para isso, o programa deve ler o valor da prestação vencida, a
