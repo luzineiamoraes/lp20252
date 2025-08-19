@@ -13,7 +13,11 @@ print(30*27)
 
 
 #3. Faça um programa que imprima a média aritmética entre os números 5, 8, 12.
-print(f'5+8+12/3')
+def q3():
+    cabecalho('Questao 3')
+    print(f'(5+5+8)/3' = {(5+8+12)/3}')
+def q3():
+
 
 #4. Faça um programa que leia e imprima um número inteiro.
 
@@ -21,6 +25,7 @@ print(f'5+8+12/3')
 
 #6. Faça um programa que leia um número inteiro e imprima o seu
 #   antecessor e o seu sucessor.
+
 
 #7. Faça um programa que leia o nome o endereço e o telefone de
 #   um cliente e ao final, imprima esses dados.
@@ -78,12 +83,11 @@ print(f'5+8+12/3')
 #    Ao final, o programa deverá imprimir a distância percorrida e a
 #    quantidade de litros consumidos na viagem.
 
+def q18():
+    cabecalho('Questão 18')
+    tempo = float(input('Tempo percorrido por viagem(minutos):'))
+    velocidade = int(input('Velocidade média(km/h):'))
 
-T = float(input(f'Tempo: '))
-Velocidade_média = Float(input(f'Velocidade_média: '))
-
-print(f' (L= D/12): {Listros}')
-print(f'(D = v*T): {Distancia}')
 
 
 
@@ -98,3 +102,6 @@ print(f'(D = v*T): {Distancia}')
 #20. Faça um programa que efetue a apresentação do valor da conversão
 #    em real (R$) de um valor lido em dólar (US$). Para isso, será
 #    necessário também ler o valor da cotação do dólar.
+
+opcao = input(menu)
+eval(f'q{opcao}()')
