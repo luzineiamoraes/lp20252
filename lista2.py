@@ -133,8 +133,31 @@ def q91():
 
 #10. Faça um programa que leia três números inteiros e imprima os três em ordem
 #crescente.
+def q10():
+    num1 = int(input("Digite o primeiro número: "))
+    num2 = int(input("Digite o segundo número: "))
+    num3 = int(input("Digite o terceiro número: "))
+    if num1 < num2 and num2 < num3:
+        print(num1,num2,num3)
+    if num2 < num3 and num3 < num1:
+        print(num2,num3,num1)
+    if num3 < num2 and num2 < num1:
+        print(num3,num2,num1) 
+    if num2 < num1 and num1 < num3:
+        print(num2,num1,num3)
+    if num3 < num1 and num1 < num2:
+        print(num1,num2,num3)
+    if num1 < num3 and num3 < num2:
+        print(num1,num3,num2) 
+                                                          
+
         
 #11. Faça um programa que leia 3 números e imprima o maior deles.
+def q11():
+    num1 = int(input("Digite o primeiro número: "))
+    num2 = int(input("Digite o segundo número: "))
+    num3 = int(input("Digite o terceiro número: "))
+    
 
 #12. Faça um programa que leia a idade de uma pessoa e informe:
 #• Se é maior de idade
@@ -243,3 +266,4 @@ def q91():
 #0,3 1º grupo
 #0,4 1º e 2º grupos
 #0,5 1º, 2º e 3º grupos
+q11()
