@@ -164,7 +164,11 @@ def q11():
     num3 = int(input("Digite número: "))
     if num > maior:
         maior = num
-    print(maior)    
+    print(maior) 
+
+def q11():
+
+
     
     
 
@@ -275,4 +279,6 @@ def q11():
 #0,3 1º grupo
 #0,4 1º e 2º grupos
 #0,5 1º, 2º e 3º grupos
-q11()
+
+opcao = input(menu)
+eval(f'q{opcao}()')
