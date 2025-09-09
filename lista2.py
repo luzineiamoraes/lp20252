@@ -154,9 +154,18 @@ def q10():
         
 #11. Faça um programa que leia 3 números e imprima o maior deles.
 def q11():
-    num1 = int(input("Digite o primeiro número: "))
-    num2 = int(input("Digite o segundo número: "))
-    num3 = int(input("Digite o terceiro número: "))
+    num1 = int(input("Digite número: "))
+    if num > maior:
+        maior = num
+    num2 = int(input("Digite  número: "))
+    if num > maior:
+        maior = num
+    
+    num3 = int(input("Digite número: "))
+    if num > maior:
+        maior = num
+    print(maior)    
+    
     
 
 #12. Faça um programa que leia a idade de uma pessoa e informe:
