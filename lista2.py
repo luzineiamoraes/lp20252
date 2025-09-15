@@ -201,6 +201,18 @@ def q12():
 #a nota da prova 2, a média das notas e uma das mensagens: "Aprovado",
 #"Reprovado"ou "em Prova Final"(a média é 7 para aprovação, menor que 3 para
 #reprovação e as demais em prova final).
+def q13():
+    nome = input('Digite o nome do aluno: ')
+    prova1 = float(input('Digite a primeira nota do aluno: '))
+    prova2 = float(input('Digite a segunda nota do aluno: '))
+    media = (prova1 + prova2)/2
+    if media >=7:
+        print(f'Aprovado')
+    elif media <=3:
+        print('Reprovado')
+    else:
+        print('Prova Final')
+        
 
 #14. Faça um programa que permita entrar com o salário de uma pessoa e imprima o
 #desconto do INSS segundo a tabela seguir:
