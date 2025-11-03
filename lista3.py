@@ -241,6 +241,12 @@ def q15():
 #• quantidade
 #O programa deverá processar novos pedidos até que o usuário digite 0 (zero)
 #como número do pedido.
+def q17():
+    numero_pedido = int(input("Escreva os numeros de pedidos:" ))
+    valor_totalcompra = int(input("Escreva os valores total da compra:"))
+    data_pedido = int(input("Escreva as datas dos produtos: "))
+    carrinho = []
+
 
 #18. Uma pousada estipulou o preço para a diária em R$30,00 e mais uma taxa de
 #serviços diários de:
