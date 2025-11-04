@@ -242,10 +242,31 @@ def q15():
 #O programa deverá processar novos pedidos até que o usuário digite 0 (zero)
 #como número do pedido.
 def q17():
+    carrinho = {
+            1:[1,"Borracha",7.8],
+            2:[2,"lapis",2.9],
+            3:[3,"caderno",14.5],
+            4:[4,"estojo",12.8]
+    }
     numero_pedido = int(input("Escreva os numeros de pedidos:" ))
     valor_totalcompra = int(input("Escreva os valores total da compra:"))
     data_pedido = int(input("Escreva as datas dos produtos: "))
     carrinho = []
+    while True:
+
+        print("Prodrutos da Loja": )
+        for p in produtos:
+            print(f'{produtos[p]}')
+        cod = int(input('Digite o código do produto a comprar: '))
+        if cod == 0:
+            break 
+        qtidade = int(input('Digite a qtidade a comprar do produto selecionado: '))
+        item = [cod,qtidade]
+        carrinho.append(item)
+     print('Item do carrinho: ')
+     valor_total = 0
+     for item in carrinho: 
+        print(f')            
 
 
 #18. Uma pousada estipulou o preço para a diária em R$30,00 e mais uma taxa de
